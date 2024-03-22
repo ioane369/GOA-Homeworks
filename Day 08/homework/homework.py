@@ -7,16 +7,18 @@ Indentation - ინდენტაცია (კედლისგან tab - 
 
 range()-ის შემდეგ უნდა გამოვიყენოთ :   """
 
-for i in range(3):
+for i in range(3):        # i არის მთვლელი     range(3) არის საიტერაციო ობიექტი     
   print("Hello")
 
+for i in "hello":         # i არის მთვლელი     hello არის საიტერაციო ობიექტი
+  print(i)
 #                                                 WHILE LOOP (სანამ ციკლი)
 """
 while ციკლსაც იგივე ფუნქცია აქვს, მაგრამ ის გამოიყენება მაშინ, როცა არ იცი რამდენჯერ დაგჭირდება ინსტრუქციის განმეორებით შესრულება.
 
 აქაც საჭიროა ინდენტაცია და :   """
 
-tickets = 5                             # (tickets ცვლადი არის counter, ის აღმოფხვრავს infinite loop-ის წარმოქმნას, 
+tickets = 5                             # (tickets ცვლადი არის counter (მთვლელი), ის აღმოფხვრავს infinite loop-ის წარმოქმნას, 
 while tickets > 0:                                        # რადგან როცა 15-ვე ბილეთი გაიყიდება იტერაციაც შეწყდება)
   print("sell ticket")
   tickets = tickets - 1
