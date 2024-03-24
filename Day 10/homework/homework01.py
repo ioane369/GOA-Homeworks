@@ -12,7 +12,7 @@ for i in range(1, 21):
     
 number = -1
 
-for i in range (10):
+for i in range(10):
     number += 2
     print(number, "is odd")
 
