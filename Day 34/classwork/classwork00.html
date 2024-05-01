@@ -1,0 +1,51 @@
+<!--  
+Task 1: Create five types of inputs and test how each one works. Output the results with proper line breaks for better readability.
+Task 2: Add comments to the inputs created in the first task, explaining the purpose of each input. 
+Taks 4: At the bottom, include an explanation of how inputs and labels are connected in HTML.
+Task 5: Test the "number" input type to understand its functionality and output.
+Task 6: Add the "required" attribute to all input fields and explain its purpose at the bottom.
+-->
+
+<form>
+    <!-- Checkbox for the user to accept terms and conditions -->
+    <label for="terms-conditions">I accept the terms and conditions</label>
+    <input type="checkbox" id="terms-conditions" required>
+    <br><br>
+
+    <!-- Input for the user to enter their name -->
+    <label for="name">Name:</label>
+    <input type="text" id="name" required>
+    <br>
+
+    <!-- Radio buttons to select if the user is breathing or not -->
+    <p>Are you breathing?</p>
+    <label for="alive">Yes</label>
+    <input type="radio" id="alive" name="breathing" required>
+    <label for="dead">No</label>
+    <input type="radio" id="dead" name="breathing" required>
+    <br><br>
+    
+    <!-- Input for the user to enter their email address -->
+    <label for="email">Email:</label>
+    <input type="email" id="email" required>
+    <br><br>
+
+    <!-- Input for the user to enter a password -->
+    <label for="pass">Password:</label>
+    <input type="password" id="pass" required>
+    <br><br>
+
+    <!-- Input for the user to enter their age as a number -->
+    <label for="num">Age:</label>
+    <input type="number" id="num" required>
+    <br><br>
+
+    <!-- Submit button to send user information to the database -->
+    <input type="submit">
+</form>
+
+<!-- 
+To connect an input field with its label, assign a unique id to the input and then set the for attribute in the label to the same id.
+
+The "required" attribute ensures that users must enter data before submitting the form; otherwise, the information will not be processed or stored in the database. 
+-->
