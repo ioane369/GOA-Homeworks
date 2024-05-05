@@ -1,0 +1,38 @@
+<!-- 
+Create a registration form where the user can enter their full name, email, and password, along with a confirmation of the password to ensure accuracy. The user should also select their hobby from a list of 5 options and choose their gender.
+ -->
+
+<form>
+    <input type="text" name="full_name" placeholder="Your full name">
+    <br><br>
+    <input type="email" name="email" placeholder="Your email">
+    <br><br>
+    <input type="password" name="password" placeholder="Your password">
+    <br><br>
+    <input type="password" name="re-entered_password" placeholder="Re-enter your password">
+
+    <h2>Select your favorite hobbies</h2>
+    <input type="checkbox" name="favorite_hobbies" value="Fishing" id="fishing">
+    <label for="fishing">Fishing</label>
+    <br>
+    <input type="checkbox" name="favorite_hobbies" value="Painting" id="painting">
+    <label for="painting">Painting</label>
+    <br>
+    <input type="checkbox" name="favorite_hobbies" value="Hiking" id="hiking">
+    <label for="hiking">Hiking</label>
+    <br>
+    <input type="checkbox" name="favorite_hobbies" value="Baking" id="baking">
+    <label for="baking">Baking</label>
+    <br>
+    <input type="checkbox" name="favorite_hobbies" value="Gardening" id="gardening">
+    <label for="gardening">Gardening</label>
+
+    <h2>Select your gender</h2>
+    <input type="radio" name="gender" id="male" value="male">
+    <label for="male">Male</label>
+    <br>
+    <input type="radio" name="gender" id="female" value="female">
+    <label for="female">Female</label>
+    <br><br>
+    <input type="submit">
+</form>
