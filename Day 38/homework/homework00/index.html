@@ -1,0 +1,114 @@
+<!-- 
+Create a website, ensuring to incorporate the following elements: <video> and <audio> tags, as well as appropriate page layout tags. 
+-->
+
+<html>
+    <head>
+        <title>Ioane's Personal Site</title>
+    </head>
+
+    <body>
+        <header>
+            <section id="welcome">
+                <h1>Welcome to my website</h1>
+                <p>I'm glad you're here. Explore to learn more about me, my interests, and my journey.</p>
+                <img src="multimedia/king.jpg" alt="king on the horse" width="400">
+            </section>
+        </header>
+
+        <main>
+            <section id="introduction"> 
+                <h2>Introduction</h2>
+                <p>Hello, I'm <strong>Ioane Dolidze</strong>, a 16-year-old eleventh-grade student from <em>Guria, Georgia</em>, currently residing in <em>Batumi</em>.</p>
+            </section>
+
+            <section id="skills">
+                <h2>Skills</h2>
+                <p>My skills include <strong>climbing</strong>, <strong>swimming</strong>, <strong>running</strong>, as well as having a <em>good imagination</em> (especially <em>visualization</em>), <strong>leadership qualities</strong>, <strong>emotional intelligence</strong>, and more.</p>
+            </section>
+
+            <section id="passion_for_angling">
+                <h2>A Passion for Angling</h2>
+                <p>Fishing is more than just a hobby to me; it's a freedom. In the words of Henry David Thoreau, <i>"When I go fishing, I forget everything. The time spent in angling seems to be exempt from ordinary calculations of time."</i></p>
+                <aside>
+                    <h3>Did You Know?</h3>
+                    <p>Research has shown that fishing can have positive effects on mental health, including reducing stress, anxiety, and depression.</p>
+                </aside>
+                <video controls width="700"> 
+                    <source src="multimedia/fishing_solves_problems.mp4" type="video/mp4">
+                    <source src="multimedia/fishing_solves_problems.webm" type="video/webm">
+                    <source src="multimedia/fishing_solves_problems.ogg" type="video/ogg">
+                    Your browser does not support the video format.
+                </video>
+            </section>
+
+            <section id="goals">
+                <h2>Future Goals</h2>
+                <p>My goal is to become a <em>psychologically</em>, <em>morally</em>, <em>spiritually</em>, and <em>physically</em> elevated person in this lifetime. I aspire to embody what I believe a real man should be.</p>
+                <p><b>Literally me:</b></p>
+                <video controls>
+                    <source src="multimedia/Sisyphean_task.mp4" type="video/mp4">
+                    <source src="multimedia/Sisyphean_task.webm" type="video/webm">
+                    <source src="multimedia/Sisyphean_task.ogg" type="video/ogg">
+                    Your browser does not support the video format.
+                </video>
+            </section>
+        </main>  
+        
+        <footer>
+            <section id="get_in_touch">
+                <h2>Get In Touch</h2>
+                <h3>Contact Form</h3>
+                <form>
+                    <label for="full_name">Enter your full name:</label>
+                    <input type="text" name="full_name" id="full_name"   placeholder="Your Full Name Here" required>
+                    <br><br>
+
+                    <label for="age">Enter your age:</label>
+                    <input type="number" name="age" id="age" placeholder="Your Age Here" required>
+                    <br><br>
+
+                    <label for="email">Enter your email:</label>
+                    <input type="email" name="email" id="email" placeholder="Your Email Here" required>
+                    <br><br>
+
+                    <label for="message">Enter your message/feedback:</label>
+                    <input type="text" name="message" id="message" placeholder="Your Message/Feedback Here" required>
+                    <br><br>
+                    
+                    <input type="submit">
+                </form>
+
+                <h3>Reach Out on Facebook</h3>
+                <a href="https://www.facebook.com/ioane.dolidze.369"> Message Me on Facebook</a>
+                <br><br>
+
+                <img src="multimedia/get_in_touch.jpg" height="400" alt="the creation of Adam">
+            </section>
+
+            <section>
+                <h3>Quick links</h3>
+                <nav>
+                    <ul>
+                        <li><a href="#welcome">Welcome</a></li>
+                        <li><a href="#introduction">Introduction</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#passion_for_angling">Passion For Angling</a></li>
+                        <li><a href="#goals">Goals</a></li>
+                        <li><a href="#get_in_touch">Get In Touch</a></li>   
+                    </ul>
+                </nav>
+            </section>
+
+            <section>
+                <h3>Website Background Music</h3>
+                <audio controls>
+                    <source src="multimedia/Where_Is_My_Mind_by_Pixies.mp3" type="audio/mpeg">
+                    <source src="multimedia/Where_Is_My_Mind_by_Pixies.ogg" type="audio/ogg">
+                    <source src="multimedia/Where_Is_My_Mind_by_Pixies.aac" type="audio/aac">
+                    Your browser does not support the audio format.
+                </audio>
+            </section>
+        </footer>
+    </body>    
+</html>
