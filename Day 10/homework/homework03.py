@@ -1,4 +1,4 @@
-# doing exercises about while loop and if else
+# doing exercises about while loop and if-else statement
 
 
 # 1) number guessing game

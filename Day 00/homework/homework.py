@@ -1,7 +1,6 @@
-from turtle import *
-
 # DRAWING THE HOUSE
 
+from turtle import *
 
 # drawing the square
 speed(50)

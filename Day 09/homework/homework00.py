@@ -1,4 +1,5 @@
-# printing numbers from 1 to 100, and writing which is odd and which is even (using while loop) 
+# Printing numbers from 1 to 100, and writing which is odd and which is even (using a while loop) 
+
 num = 0
 odd = "is odd"
 even = "is even"

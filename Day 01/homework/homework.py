@@ -1,3 +1,6 @@
+'''
+Creating my data variables and outputting them as one long line in the terminal using a single print statement.
+'''
 name = "Ioane"
 surname = "Dolidze"
 age = 16

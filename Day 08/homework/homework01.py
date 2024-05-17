@@ -1,4 +1,5 @@
 # printing the sum of the first ten numbers (using for loop)
+
 num  = 1
 num_sum = 0
 for i in range(10):
