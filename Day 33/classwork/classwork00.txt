@@ -1,8 +1,6 @@
-<!-- 
 Assignment: Given a photo with a height of 1800px and a width of 1500px, calculate the ratio of height to width. 
 If the desired size is 500px in width, determine the corresponding height. 
 In a second scenario, given a height of 500px, calculate the corresponding width based on the same height-to-width ratio.
-
 
 ratio of height to width:
 1800 / 1500 = 1,2px
@@ -12,4 +10,3 @@ ratio of height to width:
 
 2) If height = 500px, then width will be:
 500 / 1,2 ≈ 416,67px
--->

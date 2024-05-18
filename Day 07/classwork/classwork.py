@@ -2,7 +2,8 @@
 
 """                                                  BOOLEAN TYPE DATA
 
-boolean ტიპის მონაცემებს აქვთ ორი შესაძლო მნიშვნელობა: True და False  """
+boolean ტიპის მონაცემებს აქვთ ორი შესაძლო მნიშვნელობა: True და False  
+"""
 print(2 > 10)   # result: False
 print(10 > 2)   # result: True
 
@@ -19,7 +20,8 @@ print(input1 or input2 or input3)   # result: True
 
 or შედარების ოპერატორი არამკაცრია, 
 რაც ნიშნავს, რომ თუ მოცემულ პირობათაგან ერთი მაინც არის ჭეშმარიტი, საბოლოოდ გამოსახულება ჭეშმარიტია
- მაგ: """
+ მაგ: 
+"""
 number1 = 12
 number2 = 11
 
@@ -29,7 +31,8 @@ print(number1 > number2 or number2 > number1)   # result: True
 """   
 and შედარების ოპერატორი მკაცრია,
 რაც ნიშნავს, რომ თუ მოცემულ პირობათაგან ერთი მაინც არის მცდარი, საბოლოოდ გამოსახულება მცდარია
-მაგ:                """
+მაგ:                
+"""
 print(number1 > number2 and number2 > number1)   # result: False
 
 # ლოგიკური ოპერაციის შედეგი ყოველთვის არის boolean ტიპის
