@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+    font-weight: 800;
+    font-size: larger;
+}
+
+form {
+    background-color: aqua;
+}
+
+#submit {
+    background-color: green;
+    color: white
+}
+
+#clear {
+    background-color: rgb(0, 110, 255);
+    color: white
+}

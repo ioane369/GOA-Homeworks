@@ -1,0 +1,60 @@
+<!-- 
+Task: Create a form similar to the provided photo.
+-->
+
+<html>
+    <head>
+        <title>Project Management Form</title>
+        <link rel="stylesheet" href="classwork00.css">
+    </head>
+
+    <body>
+        <h2>Provided Photo</h2>
+        <img src="images/project-details-form.png" width="300">
+
+        <h2>My Version</h2>
+        <h3><u>Project Management</u></h3>
+
+        <form>
+            <label for="project_name">Project Name:</label>
+            <input type="text" name="project_name" id="project_name" placeholder="project name" required>
+            <br><br>
+
+            <label for="assigned_to">Assigned to:</label>
+            <select name="assigned_to" id="assigned_to">
+                <option>Er Merry Petision</option>
+                <option>Option 2</option>
+                <option>Option 3</option>
+            </select>
+            <br><br>
+
+            <label for="start_date">Start Date:</label>
+            <input type="date" name="start_date" id="start_date" required>
+            <br><br>
+
+            <label for="end_date">End Date:</label>
+            <input type="date" name="end_date" id="end_date" required>
+            <br><br>
+
+            <label>Priority:</label>
+
+            <input type="radio" name="priority" value="high" id="high" required>
+            <label for="high">High</label>
+
+            <input type="radio" name="priority" value="average" id="average" required>
+            <label for="average">Average</label>
+
+            <input type="radio" name="priority" value="low" id="low" required>
+            <label for="low">Low</label>
+            <br><br>
+
+            <label for="description">Description:</label>
+            
+            <textarea name="description" id="description" required></textarea>
+            <br><br>
+
+            <input type="submit" id="submit">
+            <button id="clear">Clear</button>
+        </form>
+    </body>
+</html>
