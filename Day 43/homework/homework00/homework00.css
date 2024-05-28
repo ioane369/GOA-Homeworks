@@ -12,7 +12,7 @@ body {
     background-color:rgb(232, 202, 162);
 }
 
-section {
+#navigation, #website_background_music, #contact_form {
     text-align: center;
 }
 
