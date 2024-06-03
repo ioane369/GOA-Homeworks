@@ -28,7 +28,7 @@ input {
     background-color: rgb(0, 89, 255);
 }
 
-.login {
+#login {
     border-color: rgb(225, 225, 225);
     background-color: white;
     font-weight: 600;
