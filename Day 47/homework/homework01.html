@@ -1,0 +1,200 @@
+<!--  
+Task 1: Prove that the negation of (a and b) equals the negation of a or the negation of b.
+Task 2: Prove that the negation of (a or b) equals the negation of a and the negation of b. 
+-->
+
+<html>
+    <head>
+        <title>De Morgan's laws</title>
+        <style>
+            body {
+                background-color: darkgreen;
+                text-align: center;
+            }
+
+            h1 {
+                color: rgb(199, 199, 5);
+            }
+
+            h2, h3 {
+                color: orange;
+            }
+            
+            table {
+                width: 50%;
+                border-collapse: collapse;
+                border-radius: 20px;
+                overflow: hidden;
+                border: 2px solid darkgreen;
+                margin: 20px auto;
+            }
+
+            thead {
+                text-align: center;
+                background-color: blueviolet;
+                color: white;
+            }
+
+            tbody .odd_row {
+                background-color: yellowgreen;
+            }
+
+            tbody .even_row {
+                background-color: lightgreen;
+            }
+
+            td, th {
+                padding: 15px;
+                text-align: center;
+            }
+
+            p {
+                font-size: larger;
+                font-weight: 600;
+            }
+
+            footer {
+                text-align: left;
+                color:rgb(48, 6, 6)
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <h1>De Morgan's Laws</h1>
+        </header>
+
+        <main>
+            <article>
+                <h2>Negation of (a and b) equals negation of a or negation of b:</h2>
+                <h3>¬(a&b)=(¬a)∨(¬b)</h3>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>a</th>
+                            <th>b</th>
+                            <th>a & b</th>
+                            <th>¬(a & b)</th>
+                            <th>¬a</th>
+                            <th>¬b</th>
+                            <th>¬a ∨ ¬b</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr class="odd_row">
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                        </tr>
+
+                        <tr class="even_row">
+                            <td>1</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>1</td>
+                        </tr>
+
+                        <tr class="odd_row">
+                            <td>0</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>1</td>
+                        </tr>
+
+                        <tr class="even_row">
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                        </tr>
+                    </tbody>
+                </table>
+                    
+                <p>As shown in the table, the column ¬(a&b) is identical to the column (¬a)∨(¬b), thus proving that ¬(a&b)=(¬a)∨(¬b).
+            </article>
+
+            <article>
+                <h2>Negation of (a or b) equals negation of a and negation of b</h2>   
+                <h3>¬(a∨b)=(¬a)&(¬b)</h3>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>a</th> 
+                            <th>b</th>
+                            <th>a∨b</th>
+                            <th>¬(a∨b)</th>
+                            <th>¬a</th>
+                            <th>¬b</th>
+                            <th>(¬a)&(¬b)</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr class="odd_row">
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                        </tr>
+
+                        <tr class="even_row">
+                            <td>1</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>0</td>
+                        </tr>
+
+                        <tr class="odd_row">
+                            <td>0</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>0</td>
+                        </tr>
+
+                        <tr class="even_row">
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <p>As shown in the table, the column ¬(a∨b) is identical to the column (¬a)&(¬b), thus proving that ¬(a∨b)=(¬a)&(¬b).</p>
+            </article>
+        </main>
+
+        <footer>
+            <p>Created by Ioane Dolidze</p>
+        </footer>
+    </body>
+</html>
