@@ -1,0 +1,90 @@
+<!--  
+Task: Create a mini website about yourself using the style techniques you learned today.
+-->
+
+<html>
+    <head>
+        <title>About Me</title>
+
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+            * {
+                font-family: "Roboto";
+            }
+
+            body {
+                text-align: center;
+                background-color: rgb(28, 77, 49);
+                font-size: x-large;
+                display: flex;
+                justify-content: center;
+            }
+
+            .wrapper {
+                display: flex;
+                align-items: center;
+                gap: 20px;
+            }
+
+            .container {
+            background-color: seagreen;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: left;
+            width: 500px;
+            }
+
+            img {
+                border-radius: 5px;
+            }
+
+            h1 {
+                color: orange;
+            }
+
+            h2 {
+                color: rgb(111, 30, 30)
+            }
+
+            .contact {
+                color:rgb(76, 2, 145); 
+            }
+
+            .contact a {
+                color:rgb(100, 2, 191); 
+                font-weight: 600;
+            }
+
+            .see_also {
+                color:rgb(0, 0, 97);
+            }
+
+            .see_also a {
+                color:darkblue;
+                font-weight: 600;
+            }
+        </style>
+    </head>
+
+    <body> 
+        <div class="wrapper">
+            <img src="me.jpg" alt="Me" width="400">
+            <div class="container">
+                <h1>Ioane Dolidze</h1>
+                <h2>From Georgia</h2>
+
+                <div class="contact">
+                    <h3>Contact Info:</h3>
+                    <a href="mailto:dolidzeioane369@gmail.com">dolidzeioane369@gmail.com</a>
+                </div>
+
+                <div class="see_also">
+                    <h3>See Also:</h3>
+                    <a href="https://www.facebook.com/ioane.dolidze.369">Facebook</a><br>
+                    <a href="https://github.com/ioane369">Github</a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

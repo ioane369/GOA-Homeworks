@@ -1,0 +1,131 @@
+<!--  
+With the material learned so far, create a modern portfolio site. It is preferable to use lists, tables, and videos (not exceeding 20 MB). Style the site using classes and IDs.
+-->
+
+<html>
+    <head>
+        <title>Ioane's portfolio</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+
+    <body>
+        <header>
+            <section id="navigation">
+                <nav>  
+                    <a href="#welcome">Welcome</a><br>
+                    <a href="#introduction">Introduction</a><br>
+                    <a href="#skills">Skills</a><br>
+                    <a href="#education_experience">Education & Experience</a><br>
+                    <a href="#goals">Goals</a><br>
+                    <a href="#get_in_touch">Get In Touch</a>                    
+                </nav>
+            </section>
+
+            <section id="welcome">
+                <h1>Welcome to my website</h1>
+                <p>I'm glad you're here. Explore to learn more about me, my interests, and my journey.</p>
+                <img class="multimedia" src="multimedia/king.jpg" alt="king on the horse" width="400">
+            </section>
+        </header>
+
+        <main>
+            <section id="introduction"> 
+                <h2>Introduction</h2>
+                <p>Hello, I'm <strong>Ioane Dolidze</strong>, a 16-year-old eleventh-grade student from <em>Guria, Georgia</em>, currently residing in <em>Batumi</em>.</p>
+            </section>
+
+            <section id="education_experience">
+                <h2>Education & Experience</h2>
+                <p>As mentioned previously, I am a <em>high school</em> student with no professional experience yet.</p>
+            </section>
+
+            <section id="skills">
+                <h2>Skills</h2>
+                <p>My skills include <strong>climbing</strong>, <strong>swimming</strong>, <strong>running</strong>, as well as having a <em>good imagination</em> (especially <em>visualization</em>), <strong>leadership qualities</strong>, <strong>emotional intelligence</strong>, and more.</p>
+
+            <section id="goals">
+                <h2>Future Goals</h2>
+                <p>My goal is to become a <em>psychologically</em>, <em>morally</em>, <em>spiritually</em>, and <em>physically</em> elevated person in this lifetime. I aspire to embody what I believe a real man should be.</p>
+                <p><b>Literally me:</b></p>
+                <video class="multimedia" controls>
+                    <source src="multimedia/Sisyphean_task.mp4" type="video/mp4">
+                    <source src="multimedia/Sisyphean_task.webm" type="video/webm">
+                    <source src="multimedia/Sisyphean_task.ogg" type="video/ogg">
+                    Your browser does not support the video format.
+                </video>
+            </section>
+        </main>  
+        
+        <footer>
+            <section id="get_in_touch">
+                <h2>Get In Touch</h2>
+                <p>If you'd like to get in touch with me, please feel free to reach out through any of the following ways.</p>
+                <h3>Contact Form</h3>
+                <form>
+                    <input type="text" name="full_name" id="full_name"   placeholder="Full Name" required>
+                    <br><br>
+
+                    <input type="number" name="age" id="age" placeholder="Age" required>
+                    <br><br>
+
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+                    <br><br>
+
+                    <input type="text" name="message" id="message" placeholder="Message/Feedback" required>
+                    <br><br>
+                    
+                    <input type="submit">
+                </form>
+
+                <h3>Contact Information</h3>
+
+                <div id="contact_table">
+                    <table>
+                        <thead>
+                            <tr>
+                            <th>Type</th> 
+                            <th>Detail</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr class="odd_row">
+                                <td>Email</td>
+                                <td><a href="mailto:dolidzeioane369@.com">dolidzeioane369@gmail.com</a></td>
+                            </tr>
+                            
+                            <tr class="even_row">
+                                <td>Phone</td>
+                                <td>599 00 00 00</td>
+                            </tr>
+
+                            <tr class="odd_row">
+                                <td>Github</td>
+                                <td><a href="https://github.com/ioane369">ioane369</a></td>
+                            </tr>
+
+                            <tr class="even_row">
+                                <td>Facebook</td>
+                                <td><a href="https://www.facebook.com/ioane.dolidze.369">იოანე დოლიძე</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+                <img class="multimedia" src="multimedia/get_in_touch.jpg" height="400" alt="the creation of Adam">
+            </section>
+
+            <section>
+                <h3>Website Background Music</h3>
+                <div id="background_music">
+                    <audio controls>
+                        <source src="multimedia/Where_Is_My_Mind_by_Pixies.mp3" type="audio/mpeg">
+                        <source src="multimedia/Where_Is_My_Mind_by_Pixies.ogg" type="audio/ogg">
+                        <source src="multimedia/Where_Is_My_Mind_by_Pixies.aac" type="audio/aac">
+                        Your browser does not support the audio format.
+                    </audio>
+                </div>
+            </section>
+        </footer>
+    </body>    
+</html>
