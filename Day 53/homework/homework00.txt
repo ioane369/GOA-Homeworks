@@ -1,0 +1,7 @@
+Task: Write a rejection of the given condition.
+
+Given Condition: ∀x(x∈B → x∈A)
+The given condition states that for every 𝑥, if x belongs to set B, then x also belongs to set 𝐴. In other words, set B is a subset of set A.
+
+Rejection of the Condition: ∃x(x∈B & x∉A)  
+This condition states that There exists an x such that x belongs to B and x does not belong to A, ndicating that B is not a subset of A.

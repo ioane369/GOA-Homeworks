@@ -1,0 +1,33 @@
+<!-- Explain the CSS priority tree. -->
+
+<html>
+    <head>
+        <title>CSS priority based on CSS selectors</title>
+    </head>
+
+    <body>
+        <h1>Explaining the CSS priority tree</h1>
+        <p>The CSS priority tree determines which styles are applied to an element when multiple rules are present. The specificity is calculated based on the types of selectors used.</p>
+
+        <h2>Specificity calculation</h2>
+        <img src="CSS_priority.png" alt="CSS priority based on CSS selectors" width="40%">
+        <ol>
+            <li>
+                Inline Styles
+                <p>Inline styles have the highest priority. Styles written directly in the HTML element using the style attribute will override all other styles. For example: div style="color: red;".</p>
+            </li>
+            <li>
+                IDs
+                <p>Selectors with IDs have the next highest priority. For example: #header { color: blue; } has higher specificity than a class or a tag selector.</p>
+            </li>
+            <li>
+                Classes
+                <p>Class selectors are next in line. For example: .button { color: green; }.</p>
+            </li>
+            <li>
+                Elements
+                <p>Element selectors have the lowest specificity. For example: p { color: black; }.</p>
+            </li>
+        </ol>
+    </body>
+</html>

@@ -1,0 +1,54 @@
+body { 
+    font-family: Arial, sans-serif;
+    background-color: rgb(24, 25, 26);
+    color: rgb(228, 230, 235);
+    text-align: center;
+}
+
+#add_friend {
+    background-color: rgb(49, 150, 244);
+    color:white
+}
+
+button {
+    border-radius: 5px;
+    padding: 10px 10px;
+    border: none;
+    background-color: rgb(59, 60, 62);
+    color:white
+}
+
+#sections a {
+    color: rgb(155, 156, 159);
+}
+
+select {
+    background-color: rgb(24, 25, 26);
+    color: rgb(155, 156, 159);
+    border: none;
+    font-size: 105%;
+}
+
+#sections button {
+    margin-left: 15%;
+}
+
+h2 {
+    text-align: left;
+}
+
+p {
+    color: rgb(155, 156, 159);
+}
+
+a {
+    color: #1877f2;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+#posts p{
+    font-size: larger;
+    font-weight: 600;
+}
