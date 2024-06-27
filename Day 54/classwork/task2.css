@@ -1,0 +1,9 @@
+p {
+    box-sizing: border-box;
+    width: 400px;
+    height: 200px;
+    padding: 30px 15px;
+    border-width: 5px solid red;
+    background-color: yellow;
+    margin: 50px 50px 50px 15px;
+}

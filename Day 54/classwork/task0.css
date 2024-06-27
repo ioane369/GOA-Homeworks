@@ -1,0 +1,14 @@
+button {
+    background-color: aqua;
+    color: black;
+}
+
+button:hover {
+    background-color: black;
+    color: aqua;
+}
+
+button:active {
+    background-color: blueviolet;
+    color:brown
+}
