@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%
+}
+
+#first_row, #second_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:end;
+    height: 40%;
+}
+
+#first_row {
+    margin-top: 3%;
+    margin-bottom: 1%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+#second_row {
+    margin-top: 0;
+    margin-left: 4%;
+    margin-right: 4%;
+
+}
+
+.parent{
+    width: 32%;
+    height: 100%;
+    /* change px with % */
+    border-radius: 20px; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.child {
+    display: flex;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5%
+}
+
+h2 {
+    font-size: 250%;
+}
+
+p {
+    font-size: 100%;
+}
+
+#tbilisi {
+    background-image: url('images/tbilisi.webp');
+}
+
+#rustavi {
+    background-image: url(images/rustavi.png);
+}
+
+#kutaisi {
+    background-image: url(images/kutaisi.png);
+}
+
+#mtskheta {
+    background-image: url(images/mtskheta.png);
+}
+
+#sighnaghi {
+    background-image: url(images/sighnaghi.png);
+}
+
+#batumi {
+    background-image: url(images/batumi.png);
+}

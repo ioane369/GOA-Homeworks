@@ -1,0 +1,53 @@
+<!-- Create a website that looks like the one in the photo (task.png) using the display: flex property. -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <title>CSS practice</title>
+    </head>
+
+    <body> 
+        <div id="column-div">
+            <h1 class="left-align">
+                <span id="blue-h1">Linked</span>
+                <span id="white-h1">in</span>
+            </h1>
+
+            <h2 class="left-align">Welcome to your professional community</h2>
+            <form>
+                <label for="email" class="left-align">Email or phone</label>
+                <input type="email" name="email" id="email" required>
+                
+                <label for="password" class="left-align">Password</label>
+                <input type="password" name="password" id="password" required>
+
+                <a href="#" class="left-align" id="blue-a">Forgot password?</a>
+                <button type="submit" id="blue-button">Sign in</button>        
+            </form>
+            
+            <p id="medium-p">or</p>
+            <p>
+                By clicking Continue to join or sign in, you agree to Linkedin's <span class="blue-text">User<br>
+                Agreement</span>, <span class="blue-text">Privacy Policy</span>, and <span class="blue-text">Cookie Policy</span>.
+            </p>
+
+            <button>Continue with Google</button>
+            <button>New to <span class="blue-text">Linkedin?</span> Join now</button>
+        </div>
+
+        <div id="row-div">
+            <nav>     
+                <a href="#">Articles</a>
+                <a href="#">People</a>
+                <a href="#">Learning</a>
+                <a href="#">Jobs</a>
+                <a href="#">Get the app</a>
+                <a href="#" id="bigger-a">Join now</a>
+            </nav>
+            <button id="small-button">Sign in</button>
+        </div>
+    </body>
+</html>

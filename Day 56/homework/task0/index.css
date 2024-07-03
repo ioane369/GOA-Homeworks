@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.parent {
+    background-image: url(images/background_image.png);
+    background-size: cover;
+    width: 600px;
+    height: 250px;
+    border-radius: 25px;
+    overflow: hidden;
+    margin-left: 30%;
+    margin-bottom: 3%;
+} 
+
+.images {
+    width: 150px; 
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 10%;
+    margin-right: 55%;
+}
