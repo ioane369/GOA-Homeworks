@@ -65,6 +65,17 @@ p {
     margin-bottom: 20%;
 }
 
+button {
+    border: none;
+    color: rgb(253,253,253);
+    background-color: rgb(95,25,245);
+    width: 110%;
+    height: 11%;
+    /* change px with % */
+    border-radius: 30px;
+    font-size: 100%;
+}
+
 #row-div {
     width: 100%;
     display: flex;
@@ -86,17 +97,6 @@ a {
     text-decoration: none;
     color: rgb(151,155,157);
     font-size: 110%;
-}
-
-button {
-    border: none;
-    color: rgb(253,253,253);
-    background-color: rgb(95,25,245);
-    width: 110%;
-    height: 11%;
-    /* change px with % */
-    border-radius: 30px;
-    font-size: 100%;
 }
 
 #get-started {

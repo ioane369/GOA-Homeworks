@@ -1,0 +1,160 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/material0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#row-div {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+    justify-content: center;
+    align-items: center;
+}
+
+#row-div nav{
+    width: 65%;
+    margin-bottom: 5%;
+}
+
+#row-div a{
+    text-decoration: none;
+    color: rgb(231, 208, 255);
+    margin-left: 4%;
+}
+
+button {
+    color: rgb(163, 143, 202);
+    background-color: transparent;
+    border: 1px solid;
+    width: 6%;
+    height: 40%;
+    margin-bottom: 5%;
+    font-size: 100%;
+    border: none;
+    border-radius: 10px;
+    transition: 0.25s;
+}
+
+button:hover {
+    color: rgb(192,232,242);
+    background-color: rgb(1, 174, 254);
+    font-size: 110%;
+}
+
+#h1-div {
+    width: 100%;
+}
+
+h1 {
+    color: rgb(255,255,249);
+    font-size: 400%;
+}
+
+#h1-first-line {
+    margin-left: 37%;
+}
+
+#h1-second-line {
+    margin-left: 35%;
+}
+
+#h1-third-line {
+    margin-left: 34%
+}
+
+#search-container {
+    width: 34%;
+    height: 8%;
+    margin-left: 2%;
+    background-color: rgb(236,235,241);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    outline: rgb(115,113,179) solid 6px;
+}
+
+input {
+    margin-left: 5%;
+    width: 60%;
+    height: 60%;
+    padding: 4% 1%;
+    background-color: rgb(236,235,241);
+    border: none;
+    outline: none;
+}
+
+input::placeholder {
+    color: rgb(125, 124, 128);
+}
+
+#search-container button{
+    background-image: url(images/material1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: rgb(229,243,255);
+    height: 70%;
+    width: 25%;
+    margin-top: 5%;
+    margin-right: 4%;
+}
+
+#search-container button:hover {
+    font-size: 110%;
+}
+
+#watch-video-div {
+    background-color: transparent;
+    display: flex;
+    width: 20%;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    margin-bottom: 3%;
+}
+
+#watch-video-div button {
+    width: 15%;
+    height: 65%;
+    border-radius: 50px;
+    background-image: url(images/material2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 5%;
+    transition: 0.25s;
+}
+
+#watch-video-div button:hover {
+    transform: scale(1.1);
+    background-color: transparent;
+} 
+
+#watch-video-div a {
+    color: rgb(241,243,251);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(142, 115, 168);
+    margin-bottom: 2%;
+}

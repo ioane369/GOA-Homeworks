@@ -32,6 +32,36 @@ body {
     gap: 3%;
 }
 
+.right-align {
+    text-align: right;
+    width: 50%;
+    font-size: 100%;
+    margin-bottom: 5%;
+}
+
+#black-text {
+    color: rgb(26,26,26);
+}
+
+#purple-text {
+    color: rgb(129,122,196)
+}
+
+.left-align {
+    text-align: left;
+    width: 50%;
+}
+
+h1 {
+    color: rgb(26,26,26);
+}
+
+p {
+    color: rgb(110, 110, 110);
+    font-weight: 100;
+    font-size: 85%;
+}
+
 form {
     width: 100%;
     height: 30%;
@@ -57,6 +87,10 @@ input:hover {
     border: 2px solid rgb(176,171,211)
 }
 
+.pale-p {
+    color: rgb(173,173,173);
+}
+
 button {
     width: 50%;
     height: 8%;
@@ -64,37 +98,4 @@ button {
     color: rgb(232, 228, 253);
     border-radius: 3px;
     border: none;
-}
-
-h1 {
-    color: rgb(26,26,26);
-}
-
-.pale-p {
-    color: rgb(173,173,173);
-}
-
-p {
-    color: rgb(110, 110, 110);
-    font-weight: 100;
-    font-size: 85%;
-}
-
-.left-align {
-    text-align: left;
-    width: 50%;
-}
-
-.right-align {
-    text-align: right;
-    width: 50%;
-    font-size: 100%;
-}
-
-#black-text {
-    color: rgb(26,26,26);
-}
-
-#purple-text {
-    color: rgb(129,122,196)
 }
