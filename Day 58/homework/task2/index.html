@@ -1,0 +1,173 @@
+<!-- Create a design that looks like the one in the photo (task.png) using flexbox and grid. -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <title>Flex + Grid</title>
+    </head>
+
+    <body>
+        <div id="dashboard">
+            <div class="dashboard-child"><img src="images/material9.png" width="50px"><span>Dashboard</span></div>
+            <div class="dashboard-child"><img src="images/material10.png" width="30px"><span>Home</span></div>
+            <div class="dashboard-child"><img src="images/material11.png" width="30px"><span>Profile</span></div>
+            <div class="dashboard-child"><img src="images/material12.png" width="30px"><span>Messages</span></div>
+            <div class="dashboard-child"><img src="images/material13.png" width="50px"><span>History</span></div>
+            <div class="dashboard-child"><img src="images/material14.png" width="30px"><span>Tasks</span></div>
+            <div class="dashboard-child"><img src="images/material15.png" width="30px"><span>Communities</span></div>
+            <div class="dashboard-child"><img src="images/material16.png" width="35px"><span>Settings</span></div>
+            <div class="dashboard-child"><img src="images/material17.png" width="30px"><span>Support</span></div>
+            <div class="dashboard-child"><img src="images/material18.png" width="30"><span>Privacy</span></div>
+        </div>
+        
+        <div id="right-column">
+            <div id="header">
+                <img src="images/material7.png" width="30px">
+                <input type="search" id="search" name="search">
+                <img src="images/material8.png" width="30px">
+                <img src="images/material4.png" width="50px">
+                <p>Morgan Oakley</p>
+                <img src="images/material4.png" width="60px">
+                <p>Hi there,</p>
+                <p>Morgan Oakley (@morgan)</p>
+                <button>New</button> <button>Upload</button> <button>Share</button>  
+            </div>
+
+            <div id="row-grids">
+                <div id="grid-container1">
+                    
+                    <div class="grid1-item" id="grid1-1">     
+                        <h2>Super Cool Project</h2>
+                        <p>
+                            Sed tempus ut lacus ut scelerisque.<br> 
+                            Suspendisse sollicitudin nibh erat, id<br> 
+                            facilisis felis accumsan nec.
+                        </p>
+                        <img src="images/material0.png" width="25px">
+                        <img src="images/material1.png" width="25px">
+                        <img src="images/material2.png" width="25px">
+                        <h2 id="mainh2">Your Projects</h2>
+                    </div>
+
+                    <div class="grid1-item" id="grid1-2">
+                        <h2>Less Cool Project</h2>
+                        <p>
+                            Nullam condimentum ipsum ut lectus vehicula<br> 
+                            consectetur. Quisque sed dolor tincidunt,<br>
+                            consectetur sapien et, facilisis dolor. Duis sem<br> 
+                            purus, dignissim ut sapien in, varius<br> 
+                            pellentesque lacus.   
+                        </p>
+
+                        <img src="images/material0.png" width="25px">
+                        <img src="images/material1.png" width="25px">
+                        <img src="images/material2.png" width="25px">    
+                    </div>  
+
+                    <div class="grid1-item" id="grid1-3">
+                        <h2>Impossible App</h2>
+                        <p>
+                            In hac habitasse platea dictumst. Vivamus<br> 
+                            dictum rutrum arcu, a placerat velit sagittis<br> 
+                            id.
+                        </p>
+                        <img src="images/material0.png" width="25px">
+                        <img src="images/material1.png" width="25px">
+                        <img src="images/material2.png" width="25px">
+                    </div>
+
+                    
+                    <div class="grid1-item" id="grid1-4">
+                        <h2>Easy Peasy App</h2>
+                        <p>
+                            Etiam cursus eros ac efficitur fringilla.<br> 
+                            Vestibulum dignissim urna eget accumsan<br> 
+                            aliquam. Curabitur dignissim nisi in tortor<br> 
+                            commodo, ac bibendum magna tincidunt.
+                        </p>
+                        <img src="images/material0.png" width="25px">
+                        <img src="images/material1.png" width="25px">
+                        <img src="images/material2.png" width="25px">
+                    </div>
+
+                    <div class="grid1-item" id="grid1-5">
+                        <h2>Ad Blocker</h2>
+                        <p>
+                            Quisque eget rutrum nisl. Nam augue<br> 
+                            justo, cursus vitae metus vel, pharetra<br> 
+                            hendrerit felis. Aliquam sed malesuada<br> 
+                            eros
+                        </p>
+                        <img src="images/material0.png" width="25px">
+                        <img src="images/material1.png" width="25px">
+                        <img src="images/material2.png" width="25px">
+                    </div>
+
+                    <div class="grid1-item" id="grid1-6">
+                        <h2>Money Maker</h2>
+                        <p>
+                            Praesent convallis, libero quis congue<br> 
+                            elementum, nunc ante faucibus sapien, ac<br> 
+                            scelerisque tortor purus sit amet ex.<br> 
+                            Pellentesque mollis nec sem vel aliquam.
+                        </p>
+                        <img src="images/material0.png" width="25px">
+                        <img src="images/material1.png" width="25px">
+                        <img src="images/material2.png" width="25px">
+                    </div>
+                </div>
+                
+                <div id="grid-container2"> 
+                    
+                    <div class="grid2-item" id="grid2-1">
+                        <h3>Site Maintenance</h3>
+                        <p class="margin-bottom-p">
+                            Vestibulum condimentum tellus lacus,<br> 
+                            in accumsan elit maximus ac. Donec<br> 
+                            hendrerit sodales congue...
+                        </p>
+
+                        <h3 class="margin-top-h3">Community Share Day</h3>
+                        <p class="margin-bottom-p">
+                            Nam vel lectus tincidunt, rutrum nulla<br> 
+                            eu, ornare libero. Aliquam dictum<br> 
+                            accumsan porttitor...
+                        </p>
+
+                        <h3 class="margin-top-h3">Updated Privacy Policy</h3>
+                        <p>
+                            Phasellus efficitur nisi eget elit<br> 
+                            consectetur, eget condimentum ante<br> 
+                            auctor. Cras fringilla sagittis sem in<br> 
+                            mattis...
+                        </p>
+                        <h2 id="mainh2-2">Announcements</h2>
+                    </div>
+
+                    
+                    <div class="grid2-item" id="grid2-2">
+                        <img src="images/material3.png" width="35px">
+                        <p>@tegan</p>
+                        <p>World Peace Builder</p>
+
+                        <img src="images/material4.png" width="35px">
+                        <p>@morgan</p>
+                        <p>Super Cool Project</p>
+
+                        <img src="images/material5.png" width="50px">
+                        <p>@kendall</p>
+                        <p>Life Changing App</p>
+
+                        <img src="images/material6.png" width="35px">
+                        <p>@alex</p>
+                        <p>No Traffic Marker</p>
+                        <h2 id="mainh2-3">Trending</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

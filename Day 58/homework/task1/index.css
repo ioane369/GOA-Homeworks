@@ -1,0 +1,285 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%
+}
+
+body {
+    display: flex;
+    color: aliceblue;
+}
+
+#column-nav {
+    width: 100px;
+    height: 742px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(86, 86, 86);
+    color: rgb(183, 184, 184);
+}
+
+.sidebar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-top: 1px solid rgb(61, 61, 61); 
+}
+
+.sidebar:nth-child(1) {
+    background-color: rgb(47,47,47);
+    height: 530px;
+}
+
+#column-nav .sidebar:nth-child(2),
+#column-nav .sidebar:nth-child(3),
+#column-nav .sidebar:nth-child(4),
+#column-nav .sidebar:nth-child(5),
+#column-nav .sidebar:nth-child(6) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.sidebar:nth-child(6),
+.sidebar:nth-child(7) {
+    border-radius: 0;
+}
+
+#row-header {
+    width: 1388px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(28, 28, 28);
+    color: rgb(167, 167, 166);
+    font-style: italic;
+    font-size: 110%;
+}
+
+.item:nth-child(1) {
+    position: relative;
+    left: 90px;
+}
+
+.item:nth-child(3) {
+    width: 50px;
+    padding: 5px 8px;
+    background-color: rgb(0, 178, 232);
+    border-radius: 2px;
+    position: relative;
+    right: 100px;
+    color: white;
+}
+
+.item:nth-child(4) {
+    position: relative;
+    right: 200px;
+    color: rgb(61, 60, 58);
+    font-weight: 600;
+}
+
+.item:nth-child(5) {
+    position: relative;
+    left: 250px
+}
+
+.item:nth-child(6) {
+    position: relative;
+    left: 170px
+}
+
+.item:nth-child(7) {
+    position: relative;
+    left: 150px;
+}
+
+.item:nth-child(8) {
+    position: relative;
+    left: 65px;
+}
+
+.item:nth-child(9) {
+    position: relative;
+    right: 25px;
+}
+
+#main {
+    background-color: rgb(47,47,47);
+    height: 662px;
+    display: grid;
+    grid-template-columns: 310px 310px 310px 310px;
+    grid-template-rows: 425px 170px;
+    gap: 25px;
+    padding-left: 40px;
+    padding-top: 42px;
+}
+
+.child {
+    background-color: rgb(14,14,14);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+}
+
+#item1 {
+    align-items: center;
+}
+
+#item1 h2 {
+    font-size: 250%;
+    position: relative;
+    bottom: 60px;
+}
+
+#item1 p {
+    position: relative;
+    bottom: 20px;
+    font-size: 110%;
+}
+
+#item1 a {
+    position: relative;
+    top: 70px;
+    text-decoration: none;
+    width: 250px;
+    height: 35px;
+    border-top: 2px solid rgb(47, 47, 47);
+    padding-top: 8px;
+    text-align: center;
+}
+
+p {
+    color: rgb(125, 125, 119)
+}
+
+a:nth-child(4) {
+    color: rgb(237, 100, 15);
+    font-weight: 600;
+}
+
+a:nth-child(5) {
+    color: rgb(14, 175, 203);
+    font-weight: 600;
+}
+
+a:nth-child(6) {
+    color: rgb(169, 120, 232);
+    border-radius: 0;
+    font-weight: 600;
+}
+
+#item2 {
+    background-image: url(images/material7.png);
+}
+
+#item3 {
+    background-image: url(images/material8.png);
+    background-size: 100% 38%;
+}
+
+#margin-p {
+    position: relative;
+    left: 15px;
+    top: 15px;
+    margin-bottom: 20px;
+}
+
+#low-txt {
+    position: relative;
+    left: 15px;
+    top: 142px;
+}
+
+#item4 {
+    background-image: url(images/material9.png);
+    background-size: 100% 38%;
+}
+
+#left-down {
+    position: relative;
+    left: 15px;
+    top: 7px;
+}
+
+.regular-p-item4 {
+    position: relative;
+    left: 15px;
+    top: 23px;
+}
+
+.low-txt1-item4 {
+    position: relative;
+    left: 15px;
+    top: 130px;
+    color: rgb(88, 161, 194);
+}
+
+.low-txt2-item4 {
+    position: relative;
+    left: 15px;
+    top: 135px;
+}
+
+#item5 {
+    background-image: url(images/material3.png);
+    background-size: cover;
+}
+
+#item6 {
+    background-image: url(images/material4.png);
+    background-size: cover;
+}
+
+#item7 {
+    background-image: url(images/material5.jpg);
+    background-size: 250%;
+    background-position: center;
+}
+
+#item8 {
+    background-image: url(images/material6.png);
+    background-size: 120%;
+    background-position: center;
+}
+
+.left-h2 {
+    position: relative;
+    left: 15px;
+    font-size: 130%;
+}
+
+.regular-p {
+    position: relative;
+    left: 15px;
+    top: 15px;
+}
+
+.low-txt1 {
+    position: relative;
+    left: 15px;
+    top: 135px;
+    color: rgb(88, 161, 194);
+}
+
+.low-txt2 {
+    position: relative;
+    left: 15px;
+    top: 140px;
+}
+
+.child:nth-child(5), :nth-child(6), :nth-child(7), :nth-child(8) {
+    border-radius: 13px 13px 0 0;
+}

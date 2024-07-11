@@ -1,0 +1,370 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+#dashboard {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(25,146,212);
+    width: 300px;
+    height: 750px;
+    align-items: start;
+    gap: 5px;
+    color: rgb(234, 234, 234);
+}
+
+.dashboard-child:nth-of-type(1) img {
+    position: relative;
+    top: 10px;
+    left: 20px;
+    margin-bottom: 30px;
+}
+
+.dashboard-child:nth-of-type(1) span {
+    position: relative;
+    left: 30px;
+    bottom: 38px
+}
+
+.dashboard-child:nth-of-type(2) img,
+.dashboard-child:nth-of-type(3) img, 
+.dashboard-child:nth-of-type(4) img,
+.dashboard-child:nth-of-type(6) img, 
+.dashboard-child:nth-of-type(7) img,
+.dashboard-child:nth-of-type(8) img,
+.dashboard-child:nth-of-type(9) img,
+.dashboard-child:nth-of-type(10) img {
+    position: relative;
+    left: 27px;
+}
+
+.dashboard-child:nth-of-type(2) span,
+.dashboard-child:nth-of-type(3) span, 
+.dashboard-child:nth-of-type(4) span,
+.dashboard-child:nth-of-type(6) span, 
+.dashboard-child:nth-of-type(7) span,
+.dashboard-child:nth-of-type(8) span,
+.dashboard-child:nth-of-type(9) span,
+.dashboard-child:nth-of-type(10) span {
+    position: relative;
+    left: 50px;
+    bottom: 10px;
+}
+
+.dashboard-child:nth-of-type(5) img {
+    position: relative;
+    left: 16px;
+}
+
+.dashboard-child:nth-of-type(5) span {
+    position: relative;
+    left: 30px;
+    bottom: 10px;
+}
+
+.dashboard-child:nth-of-type(7) {
+    margin-bottom: 30px;
+}
+
+/* This is where header and both grid containers are */
+#right-column { /* */
+    display: flex;
+    flex-direction: column;
+}
+
+#header {
+    width: 1190px;
+    height: 125px;
+    background-color: white;
+}
+
+input {
+    height: 25px; 
+    width: 550px;
+    background-color: rgb(223, 230, 240);
+    border-radius: 15px;
+    border: none;
+    position: relative;
+    bottom: 20px;
+    left: 70px;
+}
+
+#header p:nth-of-type(1) {
+    position: relative;
+    left: 1000px;
+    bottom: 40px;
+    font-weight: 600;
+    font-size: 110%;
+}
+
+#header p:nth-of-type(2) {
+    font-size: 80%;
+}
+
+#header p:nth-of-type(3) {
+    font-size: 140%;
+}
+
+#header p:nth-of-type(2), 
+#header p:nth-of-type(3) {
+    position: relative;
+    left: 150px;
+    bottom: 75px;
+    font-weight: 600;
+}
+
+#header img:nth-of-type(4) {
+    position: relative;
+    left: 75px;
+    bottom: 20px;
+}
+
+#header img:nth-of-type(3) {
+    position: relative;
+    left: 300px;
+}
+
+#header img:nth-of-type(2) {
+    position: relative;
+    left: 280px;
+    bottom: 10px;
+}
+
+#header img:nth-of-type(1) {
+    position: relative;
+    left: 40px;
+    bottom: 8px;
+}
+
+button {
+    position: relative;
+    left: 820px;
+    bottom: 110px;
+    width: 80px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(25,146,212);
+    margin-left: 20px;
+    color: white;
+}
+
+/* Placing grid-container1 and grid-container2 horizontally */
+#row-grids {
+    display: flex;
+    background-color: rgb(223, 230, 240);
+    padding-left: 20px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    width: 1190px;
+    min-height: 625px;
+}
+
+#grid-container1 {
+    display: grid;
+    grid-template-columns: 420px 420px;
+    gap: 20px;
+}
+
+.grid1-item {
+    background-color: white;
+    border-radius: 10px;
+    border-left: 7px solid rgb(233, 171, 56);
+    font-size: 90%;
+    padding-left: 20px;
+    padding-top: 25px;
+}
+
+/* h2 that is placed above grid-contaier1 */
+#mainh2 {
+    position: relative;
+    bottom: 155px;
+    right: 25px;
+    font-size: 140%;
+}
+
+.grid1-item h2 {
+    font-size: 130%;
+}
+
+#grid1-1 img:nth-of-type(3) {
+    position: relative;
+    top: 40px;
+    left: 280px
+}
+
+#grid1-1 img:nth-of-type(2) {
+    position: relative;
+    top: 41px;
+    left: 260px
+}
+
+#grid1-1 img:nth-of-type(1) {
+    position: relative;
+    top: 42px;
+    left: 240px
+}
+
+#grid1-2 img:nth-of-type(3) {
+    position: relative;
+    top: 8px;
+    left: 280px
+}
+
+#grid1-2 img:nth-of-type(2) {
+    position: relative;
+    top: 9px;
+    left: 260px
+}
+
+#grid1-2 img:nth-of-type(1) {
+    position: relative;
+    top: 10px;
+    left: 240px
+}
+
+#grid1-3 img:nth-of-type(3) {
+    position: relative;
+    top: 20px;
+    left: 280px;
+}
+
+#grid1-3 img:nth-of-type(2) {
+    position: relative;
+    top: 21px;
+    left: 260px;
+}
+
+#grid1-3 img:nth-of-type(1) {
+    position: relative;
+    top: 22px;
+    left: 240px;
+}
+
+#grid1-4 img:nth-of-type(3),
+#grid1-5 img:nth-of-type(3),
+#grid1-6 img:nth-of-type(3) {
+    position: relative;
+    top: 5px;
+    left: 280px;
+}
+
+#grid1-4 img:nth-of-type(2),
+#grid1-5 img:nth-of-type(2),
+#grid1-6 img:nth-of-type(2) {
+    position: relative;
+    top: 6px;
+    left: 260px;
+}
+
+#grid1-4 img:nth-of-type(1),
+#grid1-5 img:nth-of-type(1),
+#grid1-6 img:nth-of-type(1) {
+    position: relative;
+    top: 7px;
+    left: 240px;
+}
+
+#grid-container2 {
+    display: grid;
+    grid-template-columns: 250px;
+    grid-template-rows: 260px 227px;
+    margin-left: 25px;
+    gap: 50px;
+}
+
+.grid2-item {
+    background-color: white;
+    border-radius: 10px;
+    font-size: 70%;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+#grid2-2 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 23px;
+    margin-bottom: 5px;
+}
+
+/* h2 that is placed above grid2-1 (first row of grid-container2) */
+#mainh2-2 {
+    font-size: 170%;
+    position: relative;
+    bottom: 280px;
+    right: 20px;
+}
+
+/* h2 that is placed above grid2-2 (second row of grid-container2) */
+#mainh2-3 {
+    font-size: 170%;
+    position: relative;
+    bottom: 300px;
+    right: 20px;
+}
+
+.margin-top-h3 {
+    margin-top: 15px;
+}
+
+.margin-bottom-p {
+    width: 200px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid gray; /* Creating "thin gray line" to separate different sections of grid2-1 */
+}
+
+#grid2-2 p:nth-of-type(1),
+#grid2-2 p:nth-of-type(2) {
+    position: relative;
+    left: 50px;
+    bottom: 27px; 
+}
+
+#grid2-2 img:nth-of-type(2) {
+    position: relative;
+    bottom: 7px;
+    right: 2px
+}
+
+#grid2-2 p:nth-of-type(3),
+#grid2-2 p:nth-of-type(4) {
+    position: relative;
+    left: 50px;
+    bottom: 37px; 
+}
+
+#grid2-2 img:nth-of-type(3) {
+    position: relative;
+    bottom: 20px;
+    right: 8px;
+}
+
+#grid2-2 p:nth-of-type(5),
+#grid2-2 p:nth-of-type(6) {
+    position: relative;
+    left: 50px;
+    bottom: 57px; 
+}
+
+#grid2-2 img:nth-of-type(4) {
+    position: relative;
+    bottom: 33px;
+    right: 2px
+}
+
+#grid2-2 p:nth-of-type(7),
+#grid2-2 p:nth-of-type(8) {
+    position: relative;
+    left: 50px;
+    bottom: 62px; 
+}

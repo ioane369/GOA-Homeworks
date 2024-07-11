@@ -1,0 +1,32 @@
+<!--  
+Practice using grid-template-columns and gap. Also, explain what auto and 1fr do in grid-template-columns and how to calculate fr.  
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <title>Grid practice</title>
+    </head>
+
+    <body>
+        <div class="parent">
+            <div class="child">1</div>
+            <div class="child">2</div>
+            <div class="child">3</div>
+            <div class="child">4</div>
+            <div class="child">5</div>
+            <div class="child">6</div>
+        </div>
+    </body>
+</html>
+
+<!--  
+In the context of grid-template-columns, the auto keyword allows the column to size itself based on its content. This means that the width of the column will be just enough to fit the content inside it.
+
+The 1fr unit in grid-template-columns stands for one fraction of the available space in the grid container. This unit allows the column to take up a portion of the remaining space after all auto-sized or fixed-sized columns have been allocated..
+
+The fr unit is calculated based on the available space in the grid container. For example, if you have a container with a total width of 600px, and you define grid-template-columns: 1fr 2fr, the total number of fractions is 3 (1 + 2). Therefore, the first column will take up 1/3 of the available space, and the second column will take up 2/3 of the available space.
+-->
