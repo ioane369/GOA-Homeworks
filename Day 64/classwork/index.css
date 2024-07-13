@@ -1,0 +1,29 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    background-color: purple;
+    font-size: larger;
+}
+
+#parent {
+    width: 70%;
+    height: 7%;
+    background-color: rgba(0, 0, 0, 0.544);
+}
+
+#child {
+    width: 10%;
+    height: 100%;
+    background-color: aliceblue;
+    transition: 0.25s;
+    transition-delay: 0.5s;
+}
+
+body:hover #child {
+    width: 100%;
+}
