@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    padding-left: 35%; 
+    padding-top: 8%;
+    background-color: rgb(40,39,46);
+}
+
+#parent {
+    background-color: rgb(48, 46, 55);
+    height: 500px;
+    width: 500px;
+    border-radius: 30px;
+    padding-top: 5%;
+    border: 1px solid rgb(83,82,88);
+}
+
+img, h3, h1 {
+    margin-bottom: 20px;
+}
+
+#pfp {
+    border-radius: 50%;
+    border: 3px solid rgb(40,39,46);
+    outline: 1px solid rgb(125, 125, 125);
+    margin-left: 10%;
+}
+
+h3 {
+    color: rgb(114,74,127);
+    margin-left: 10%;
+}
+
+h1 {
+    color: white;
+    margin-left: 10%;
+    font-size: 240%;
+}
+
+p {
+    color: rgb(150,149,153);
+    font-size: 110%;
+    margin-bottom: 5px;
+    margin-left: 10%;
+}
+
+a {
+    color: rgb(205, 205, 205);
+}
+
+a:hover {
+    color: rgb(166, 106, 186);
+}
+
+button {
+    margin-top: 25px;
+    width: 140px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(173,105,165);
+    color: rgb(248,233,228);
+    margin-bottom: 40px;
+    margin-left: 10%;
+    transition: 0.25s;
+}
+
+button:hover {
+    transform: scale(1.04);
+    cursor: pointer;
+}
+
+#child {
+    width: 499px;
+    height: 100px;
+    border-radius: 0px 0px 20px 20px;
+    border-top: 1px solid rgb(83,82,88);
+    padding-top: 6%;
+    padding-left: 10%;
+}
+
+#child img {
+    margin-right: 20px;
+    transition: 0.25s;
+}
+
+#child img:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}

@@ -1,0 +1,54 @@
+<!-- 
+Create an animation that occurs when touching an element using the transform property. Use the learned skew, rotate, and translate properties.
+Explain each transform function with comments. 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                width: 100vw;
+                height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: pink;
+            }
+
+            div {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                font-size: larger;
+                width: 200px;
+                height: 200px;
+                background-color: purple;
+                transition: 1s;
+            }
+
+            div:hover {
+                transform: translate(100px) rotate(180deg) scale(2)
+            }
+        </style>
+        <title>Transform practice</title>
+    </head>
+
+    <body>
+        <div>
+            <p>nacar</p>
+            <p>ɐıbǝb</p>
+        </div>
+    </body>
+</html>
+
+
+<!-- 
+Skew: changes the shape of element to make it slanted.
+Rotate: turns an object around a point.
+Translate: repositions an element horizontally and/or vertically.
+Scaling: makes an object bigger or smaller.
+-->

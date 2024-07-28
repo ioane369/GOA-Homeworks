@@ -1,0 +1,55 @@
+<!-- 
+Add a transition property to your animations, indicating the attribute you are animating, how long you want this transition to take place, and the timing function.
+Explain with comments what the chosen transition time function does.
+--> 
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                width: 100vw;
+                height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: pink;
+            }
+
+            div {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                font-size: larger;
+                width: 200px;
+                height: 200px;
+                background-color: purple;
+                color: purple;
+                transition: transform 1.5s, color 1s, background-color 1s;
+                /* specifies a transition effect with a slow start, then fast, then end slowly (this is default) */
+                transition-timing-function: ease;
+            }
+
+            div:hover {
+                transform: translate(100px) rotate(180deg) scale(2);
+                background-color: white;
+            }
+
+            p:nth-child(1) {
+                color: white;
+            }
+
+        </style>
+        <title>Transform practice</title>
+    </head>
+
+    <body>
+        <div>
+            <p>nacar</p>
+            <p>ɐıbǝb</p>
+        </div>
+    </body>
+</html>

@@ -20,4 +20,11 @@ body {
     border-radius: 50%;
     margin-top: 10%;
     margin-right: 55%;
+    border: 5px solid rgb(225, 225, 225)
+}
+
+/* I couldn't achieve it with only display: inline, so I later used position: relative. */
+h2, p {
+    position: relative;
+    bottom: 160px
 }
