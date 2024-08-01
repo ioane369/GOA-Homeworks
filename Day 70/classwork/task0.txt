@@ -1,0 +1,3 @@
+Task: Create a project folder and initialize a Git repository in it. Then, create a new repository on GitHub and link it to your local repository. Upload the project files to the GitHub repository. Next, create a second branch in addition to the main branch, and make modifications to your project on this new branch. Push these changes to GitHub. From GitHub, create a pull request to merge the changes from the second branch into the main branch. Review the pull request and merge it. Finally, on your local main branch, update the project folder by running 'git pull'.
+
+The completed task can be found on my GitHub repository named Mastering-Git. After completing the task, I deleted the second branch (mini).

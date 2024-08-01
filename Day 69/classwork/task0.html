@@ -1,0 +1,48 @@
+<!-- Create an animation that will appeal to the user. -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            * {
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+            }
+
+            body {
+                height: 100vh;
+                width: 100vw;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: rgb(131, 86, 86);
+            }
+
+            @keyframes pulse {
+                0% { 
+                    transform: scale(1);
+                }
+                50% {
+                    transform: scale(1.5);
+                }
+                100% {
+                    transform: scale(1);
+                }
+            }  
+
+            img {
+                animation-name: pulse;
+                animation-duration: 3s;
+                animation-iteration-count: infinite;
+            }
+        </style>
+        <title>Document</title>
+    </head>
+
+    <body>
+        <img src="heart.png" width="200px">
+    </body>
+</html>
