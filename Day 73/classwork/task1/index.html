@@ -1,0 +1,61 @@
+<!-- 
+Create 2 buttons and one img element. When the first button is clicked, the source of the img will be changed to another source. When the second button is clicked, the source will be replaced with a different image.
+Explain what an event is, what an action is, and what an event listener is using comments. 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                background-color: aliceblue;
+                height: 90vh;
+                width: 100vw;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+            }
+
+            div {
+                width: 20%;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+            }
+
+            button {
+                width: 100px;
+                height: 40px;
+                border-radius: 20px;
+                border: none;
+                background-color: rgb(55, 147, 55);
+                color: white;
+                transition: 0.25s;
+            }
+
+            button:hover {
+                transform: scale(1.1);
+                cursor: pointer;
+            }
+        </style>
+        <title>Onclick JS</title>
+    </head>
+
+    <body>
+        <img id="image" src="https://learnersgalaxy.ai/wp-content/uploads/2024/01/Python-Symbol.png" width="200px">
+        <div>
+            <button onclick="image.src='https://logos-world.net/wp-content/uploads/2023/02/JavaScript-Symbol.png'">JavaScript</button>
+            <button onclick="image.src='https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png'">HTML</button>
+        </div>        
+    </body>
+</html>
+
+
+<!-- 
+1) An event is an action or occurrence that happens in the browser, such as a mouse click, a keypress, or a page load.
+2) An action is what you want to happen in response to the event, such as changing the image source.
+3) An event listener is a function (in this case 'onclick') that waits for an event to occur and then executes an action in response. 
+-->
