@@ -1,0 +1,37 @@
+<!-- Make 3 examples of everything we have learned. -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Simple JavaScript</title>
+    </head>
+
+    <body>
+        <img src="https://resistol.com/cdn/shop/files/RFTHSP-CJ42E5.jpg?v=1693276556" width="100px"><br><br>
+        <!-- Onclick attribute & alert messages -->
+        <button onclick="alert('You added the hat to the cart')">Add to cart</button>
+        <button onclick="alert('You added the hat to the favourites')">Add to favourites</button>
+        <button onclick="alert('You bought the hat')">Buy</button><br><br>
+
+        <!-- Changing image src when clicking the button -->
+        <img id="image" src="https://static.vecteezy.com/system/resources/previews/010/976/690/original/neon-green-square-banner-neon-square-png.png" width="100px"><br><br>
+        <button onclick="image.src='https://static.vecteezy.com/system/resources/thumbnails/010/976/985/small_2x/neon-red-square-banner-neon-square-png.png'">Change image to red square</button>
+        <button onclick="image.src='https://static.vecteezy.com/system/resources/previews/010/928/241/original/neon-purple-square-banner-neon-square-png.png'">Change image to purple square</button>
+        <button onclick="image.src='https://images.emojiterra.com/openmoji/v15.0/1024px/1f7eb.png'">Change image to brown square</button>
+
+        <script>
+            // Creating variables
+            let name = "Ioane";
+            let surname = "Dolidze";
+            let gender = "Male";
+
+            // logging to console
+            console.log(name);
+            console.log(surname);
+            console.log(gender);
+        </script>
+    </body>
+</html>
