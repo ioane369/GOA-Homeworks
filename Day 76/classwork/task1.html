@@ -1,0 +1,27 @@
+<!-- Use the document object and explain how it was created and what it contains. Then, using this document object, select elements that appear on the web page and change their text content. -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <h1>example</h1>
+        <p>example</p>
+        <script>
+            let h1 = document.body.children[0];
+            h1.textContent = 'Hello, World!';
+            h1.style.color = 'brown';
+            let p = document.body.children[1];
+            p.textContent = 'Welcome to my website.';
+            p.style.color = 'purple';
+            console.log(h1);
+            console.log(p);
+        </script>
+    </body>
+</html>
+
+<!--  The 'document' object is automatically created by the browser when a web page is loaded. It represents the entire HTML document.The 'document' object contains the structure and content of the page including elements, attributes, and text. -->

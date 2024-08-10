@@ -1,0 +1,21 @@
+<!-- Create an HTML document with two paragraphs. Assign a unique ID to the first paragraph, then use a script element to fetch this specific element by its ID. Change the appearance of the fetched element by modifying its content and color. -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <p id="modified-p">example</p>
+        <p>example</p>
+        <script>
+            let p = document.getElementById("modified-p");
+            p.textContent = 'Hello, World!';
+            p.style.color = 'green';
+            console.log(p);
+        </script>
+    </body>
+</html>
