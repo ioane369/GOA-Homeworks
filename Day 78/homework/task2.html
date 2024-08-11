@@ -1,0 +1,40 @@
+<!-- Create a div block with a size of 400x400 pixels. Create five buttons, each with a different color: the first red, the second blue, the third pink, the fourth black, and the fifth green. When a button is clicked, the background color of the div block should change to match the button's color. For example, clicking the green button should change the div block's background color to green. -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                height: 100vh;
+                width: 100vw;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 30px;
+            }
+
+            #div1 {
+                height: 400px;
+                width: 400px;
+                background-color: antiquewhite;
+            }
+        </style>
+        <title>Onclick attribute & background colour functions</title>
+    </head>
+
+    <body>
+        <div id="div1"></div>
+        <div>
+            <button onclick="redBackground()">Red</button>
+            <button onclick="blueBackground()">Blue</button>
+            <button onclick="pinkBackground()">Pink</button>
+            <button onclick="blackBackground()">Black</button>
+            <button onclick="greenBackground()">Green</button>
+        </div>
+        
+        <script src="task2.js"></script>
+    </body>
+</html>

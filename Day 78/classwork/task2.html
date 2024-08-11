@@ -1,18 +1,17 @@
-<!-- HTML-ში შექმენით 1 პარაგრაფი მიანიჭეთ id და onclick, შემდეგ შექმენით 3 ღილაკი, ყოველ ღილაკზე დაკლიკებისას მათი სახელის შესაბამისად უნდა შეიცვალოს პარაგრაფის ფერი. -->
+<!-- In HTML, create one paragraph and assign it an id. Then, create a button and set its onclick attribute to call a function. Create a function that retrieves the textContent of the paragraph and replaces it with 'Hello'. -->
 
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>Onclick attribute & greet function</title>
     </head>
 
     <body>
-        <p id="p1">Example</p>
-        <button onclick="yellow()">Make paragraph yellow</button>
-        <button onclick="blue()">Make paragraph blue</button>
-        <button onclick="purple()">Make paragraph purple</button>
+        <p id="first-p">Welcome</p>
+        <button onclick="greet()">Click me</button>
+
         <script src="task2.js"></script>
     </body>
 </html>
