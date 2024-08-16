@@ -1,0 +1,28 @@
+<!-- 3. Clear Form Fields
+Objective: Create a form with multiple input fields (e.g., name, email, and message). Add a "Clear" button that, when clicked, clears all input fields.
+
+Steps:
+Create an HTML form with input fields for name, email, and a textarea for the message.
+Add a "Clear" button next to the submit button.
+Attach an event listener to the "Clear" button that clears the values of all input fields when clicked. -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Function clearInputs</title>
+    </head>
+
+    <body>
+        <form>
+            <input type="text" id="userName" name="name" placeholder="Your name here"><br><br>
+            <input type="email" id="userEmail" name="email" placeholder="Your email here"><br><br>
+            <textarea id="userMessage" name="message" placeholder="Your message here"></textarea><br><br>
+            <input type="submit">
+            <input type="button" id="clearBtn" value="Clear">
+        </form>
+
+        <script src="task1.js"></script>
+    </body>
+</html>

@@ -1,0 +1,38 @@
+<!-- Dropdown Selection and Display
+Objective: Create a form with a dropdown menu (select element) that has options like "Red," "Blue," and "Green." When the user selects an option, display the selected color in a <div> below the form.
+
+Steps:
+Create an HTML form with a select element containing color options.
+Add a <div> below the form to display the selected color.
+Attach a change event listener to the select element.
+In the event handler, update the text of the <div> to show the selected color. -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            div {
+                color: red;
+            }
+        </style>
+        <title>Updating the text of the div to show the selected color</title>
+    </head>
+
+    <body>
+        <form>
+            <select id="selectColor">
+                <option>Red</option>
+                <option>Blue</option>
+                <option>Green</option>
+            </select>
+        </form>
+
+        <div id="targetDiv" >
+            <p>Hello, World!</p>
+        </div>
+
+        <script src="task3.js"></script>
+    </body>
+</html>

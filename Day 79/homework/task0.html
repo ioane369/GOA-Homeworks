@@ -1,0 +1,25 @@
+<!-- Dynamic Form Validation
+Objective: Implement real-time validation for a password field. The password should be at least 8 characters long. If the password is too short, display a warning message below the input field. 
+Steps:
+Create an HTML form with a password input field.
+Add a <div> or <span> below the input to display validation messages.
+Attach an input event listener to the password field.
+In the event handler, check the length of the password and update the message accordingly. -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Password validation</title>
+    </head>
+
+    <body>
+        <form>
+            <input type="password" name="pass" id="pass" placeholder="Your password here">
+        </form>
+        <div id="messageDisplayer"></div>
+
+        <script src="task0.js"></script>
+    </body>
+</html>
