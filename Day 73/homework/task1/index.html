@@ -1,0 +1,84 @@
+<!-- Create a responsive website using basic JavaScript. -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Shopping Bag</title>
+    </head>
+
+    <body>
+        <div id="gridContainer">
+            <header class="gridItem" id="h1Container">
+                <h1>Shopping Bag</h1>
+            </header>
+
+            <section class="gridItem" id="product1">
+                <div class="imageContainer">
+                    <img src="images/jordan1_joker.png" alt="Jordan 1 Retro Night Vision Joker">
+                </div>
+                
+                <div class="productNameDisplayer">
+                    <h3>
+                        Jordan 1 Joker<br> 
+                        Retro Night Vision 
+                    </h3>
+                </div>
+                
+                <div class="quantityDisplayer">
+                    <button id="addBtn1">+</button>
+                    <p id="jordanQuantity">0</p>
+                    <button id="subtractBtn1">-</button>
+                </div>
+                
+                <p id="jordanPrice" class="priceDisplayer">$0</p>
+            </section>
+
+            <section class="gridItem" id="product2">
+                <div class="imageContainer">
+                    <img src="images/campus.png" alt="Adidas Campus 00s Light Blue">
+                </div>
+                
+                <div class="productNameDisplayer">
+                    <h3>
+                        Adidas Campus 00s<br> 
+                        Light Blue
+                    </h3>
+                </div>
+                
+                <div class="quantityDisplayer">
+                    <button id="addBtn2">+</button>
+                    <p id="campusQuantity">0</p>
+                    <button id="subtractBtn2">-</button> 
+                </div>
+                
+                <p id="campusPrice" class="priceDisplayer">$0</p>
+            </section>
+
+            <section class="gridItem" id="product3">
+                <div class="imageContainer">
+                    <img src="images/puma.png" alt="PUMA X PTC Navy/Gold Golf Shoes">
+                </div>
+                
+                <div class="productNameDisplayer">
+                    <h3>
+                        PUMA X PTC Golf Shoes<br> 
+                        Navy/Gold 
+                    </h3>
+                </div>
+               
+                <div class="quantityDisplayer">
+                    <button id="addBtn3">+</button>
+                    <p id="pumaQuantity">0</p>
+                    <button id="subtractBtn3">-</button>   
+                </div>
+                
+                <p id="pumaPrice" class="priceDisplayer">$0</p>
+            </section>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
