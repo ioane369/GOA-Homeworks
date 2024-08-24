@@ -1,0 +1,30 @@
+<!-- Create a logic where the user must enter a password. If the password is correct, display an alert granting access. If the password is incorrect, prompt the user to enter the password again and decrement the number of attempts. The process should start with 3 attempts. If all attempts are exhausted, the while loop should stop. Display the remaining number of attempts after each incorrect attempt. You will need a while loop and an if conditional statement. -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Log in with 3 attempts</title>
+    </head>
+
+    <body>
+        <script>
+            let enteredPassword;
+            let remainingAttempts = 3;
+            while (enteredPassword != 'pass123' && remainingAttempts > 0) {
+                enteredPassword = prompt('Enter your password');
+                if (enteredPassword === 'pass123') {
+                    alert('Access granted');
+                } else {
+                    remainingAttempts--;
+                    if (remainingAttempts === 0) {
+                        alert('No attempts left, try again in 24 hours!');
+                    } else {
+                        alert('Remaining attempts: ' + remainingAttempts);
+                    }   
+                }
+            }
+        </script>
+    </body>
+</html>
