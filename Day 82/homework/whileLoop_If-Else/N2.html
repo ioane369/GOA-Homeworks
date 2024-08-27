@@ -1,0 +1,28 @@
+<!-- Sum of Positive Numbers: Use a while loop to calculate the sum of positive numbers until a negative number is entered. Use if-else to handle the condition for negative input. -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sum of Positive Numbers</title>
+    </head>
+
+    <body>
+        <script>
+           let num;
+            let sum = 0;
+            let numIsPositive = true;
+
+            while (numIsPositive) {
+                num = Number(prompt('Enter a positive number (or a negative number to stop)'));
+                if (num >= 0) {
+                    sum += num;
+                } else {
+                    alert('You entered a negative number, the sum of the positive numbers is ' + sum);
+                    sum = 0;
+                }
+            } 
+        </script>
+    </body>
+</html>

@@ -1,0 +1,26 @@
+<!-- Create a form with three input fields: name, email, and password. When the form is submitted, extract the values from the inputs using JavaScript, and store each piece of information in an array named dataBase as an object. Implement a security feature by using a for loop to check if the email address of the new submission already exists in the dataBase array. If an object with the same email is found, display an alert indicating that the account already exists. If no matching email is found, display an alert confirming that the account was created successfully. -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign Up</title>
+    </head>
+
+    <body>
+        <header>
+           <h1>Please fill out the form below</h1> 
+        </header>
+        <main>
+            <form id="myForm">
+                <input type="text" name="fullName" placeholder="Full name" required><br><br>
+                <input type="email" name="email" placeholder="Email" required><br><br>
+                <input type="password" name="password" placeholder="Password" required><br><br>
+                <input type="submit" value="submit">
+            </form>
+        </main>
+
+        <script src="task2.js"></script>
+    </body>
+</html>

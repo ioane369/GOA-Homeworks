@@ -1,0 +1,30 @@
+<!-- Factorial Calculation: Use a while loop to calculate the factorial of a given number. Use if-else to handle cases where the input number is 0 or less. -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Calculate the Factorial</title>
+    </head>
+
+    <body>
+        <script>
+            let factorial = 1;
+            let num = 1;
+            const inputedNum = prompt('Enter a positive number');
+
+            if (inputedNum < 0) {
+                alert('Invalid input');
+            } else if (inputedNum === 0) {
+                alert('The factorial of 0 is 1');
+            } else {
+                while (num <= inputedNum) {
+                factorial *= num;
+                num ++;
+                }
+                alert('The factorial of ' + inputedNum + ' is ' + factorial);
+            }
+        </script>
+    </body>
+</html>

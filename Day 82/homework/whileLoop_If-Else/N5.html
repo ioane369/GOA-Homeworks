@@ -1,0 +1,23 @@
+<!-- User Input Validation: Use a while loop to keep prompting the user for a valid number between 1 and 100. Use if-else to check if the entered number is within the valid range. -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>User Input Validation</title>
+    </head>
+
+    <body>
+        <script>
+            let inputIsValid = true;
+            while (inputIsValid) {
+                let inputedNum = prompt('Enter a number between 1 and 100 (including)');
+                if (inputedNum < 1 || inputedNum > 100) {
+                    alert('Invalid input');
+                    inputIsValid = false;
+                } else alert('Valid input');
+            }
+        </script>
+    </body>
+</html>
