@@ -1,0 +1,43 @@
+<!-- Create a form and a table. When submitting the form, the data should be added to the table as a new row. Comment each step. Then, split the code into two parts: container and representation functions to simplify your code. -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Adding User Info to the Table</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>Please Fill Out The Form Below</h1>
+        </header>
+        
+        <main>    
+            <section id="registrationForm">
+                <form id="myForm">
+                    <input type="text" name="fullName" placeholder="Your full name" required><br><br>
+                    <input type="email" name="email" placeholder="Your email" required><br><br>
+                    <input type="password" name="password" placeholder="Your password" required><br><br>
+                    <input type="submit"><br><br>
+                </form>
+            </section>        
+            
+            <section id="dataBase">
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>Full name</th>
+                            <th>Email</th>
+                            <th>Password</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="tB"></tbody>
+                </table>
+            </section>
+        </main>
+
+        <script src="task0.js"></script>
+    </body>
+</html>
